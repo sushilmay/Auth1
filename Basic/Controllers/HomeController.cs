@@ -25,8 +25,8 @@ namespace Basic.Controllers
         public IActionResult Authenticate()
         {
             var claims = new List<Claim>() {
-                new Claim(ClaimTypes.Name,"feacture1"),
-                new Claim(ClaimTypes.Email,"feacture1.may@gmail.com"),
+                new Claim(ClaimTypes.Name,"feacture2.2"),
+                new Claim(ClaimTypes.Email,"feacture2.2.may@gmail.com"),
                 new Claim("Some Test","Test")
             };
             var identity = new ClaimsIdentity(claims,"Identity");
